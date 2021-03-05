@@ -1,8 +1,8 @@
 # IISD-Lakes Project
 
 ## Background
-Insert a quick blurb about the project. This is possibly where we have a project summary or the objectives
-of the project.
+Partner with the International Institute for Sustainable Development (IISD)-Experimental Lakes Area to address climate change impact on freshwater lakes in Canada by analyzing the effect that dissolved organic carbon (DOC) has on species that live in the lakes.
+
 
 ## Table of Contents
 - [Team Members](#team-members)
@@ -11,46 +11,19 @@ of the project.
 - [Project Phases](#phases)
 
 ## Team Members
-- Name of Member
-  - Role (either DA, Core Volunteer, Stakeholder, etc.)
-  - Personal Email
-  - Contact Phone (?)
-  - Miscellaneous information such as contact for certain problems
-
+- Amy Nyman
+  - Data Ambassador, DataKind-DC
+  - amy.rose.nyman@gmail.com
+ 
 ## Deliverables
-Insert key questions that the project is supposed to answer. Ideally we should also include information about the skillset needed and/or if the task is beginner friendly
+Phase 1:
+a. Exploratory analysis of species data
+b. Identify potential machine learning/deep learning solution
+c. Develop open-source API to make findings accessible & reproducible
+Preliminary Question we are trying to answer:
+Do certain phytoplankton species group together (e.g. when one species increases or decreases in population, does another species also change accordingly?) 
+If so, can these species grouping be explained by season (i.e. month) or water chemistry variables (e.g. Dissolved Organic Carbon)?
+
 
 ## Data
-A short introduction of the data set used. The main subections of this section should be focus on how to access the data as well as general onboarding.
-
-### Onboarding
-A detailed but simple explaination to get ahold of the data. Not only that but there should also be a focus on making sure the end users have the proper libraries installed.
-
-#### Configuration
-After retrieving the data, it is important to set up the development environment for reproducible analysis. Before diving into the data, please make sure you configure the following:
-- a Python3+ virtualenv, if you are unsure what this means, please refer to [virtualenv](virtualenv-pip-lib.com)
-- install the Python management system, [pip](https://packaging.python.org/tutorials/installing-packages/)
-- install the following Python libraries by running `pip install -r requirements.txt -c constraints.txt`
-- Considerations for deliverables:
-  - For deliverable 1: please make sure you do ....
-  - etc.
-
-The previous steps assumes working with Python. Other environments to consider for may be R, Node.js, Julia, GoLang, etc.
-
-### Datasets
-Here we list the datasets used in detail. Possibly a discussion of columns and certain caveats (anonymizing, cleaning, etc.) can be discussed. Ideally, we should link to the deliverables that the data set aims to answer.
-
-## Phases
-Phases usually follow this lifecycle. It may vary from project to project but the general phases
-- [Research and Design](#research-and-design)
-- [Testing and Implementation](#testing-and-implementation)
-- [Feedback and Wrap-up](#feedback-and-wrap-up)
-
-### Research and Design
-TODO
-
-### Testing and Implementation
-TODO
-
-### Feedback and Wrap-up
-TODO
+We have .csv files from IISD stored on a dedicated Google Drive folder.
